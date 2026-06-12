@@ -19,67 +19,94 @@
 
 @media (max-width: 600px) {
   .container {
+    width: 46vw;
     max-width: 46vw;
-    min-height: unset;
-    padding: 10px 8px;
-    border-radius: 8px;
-  }
-
-  .logo img {
-    max-width: 70px;
+    min-height: 46vw;
+    max-height: 46vw;
+    overflow: hidden;
+    padding: 8px 7px;
+    border-radius: 10px;
+    justify-content: space-evenly;
   }
 
   .logo {
-    margin-bottom: 6px;
+    margin-bottom: 2px;
   }
 
-  .title,
+  .logo img {
+    max-width: 55px;
+  }
+
+  .title {
+    font-size: 7px;
+    margin-bottom: 2px;
+  }
+
   .description {
-    font-size: 10px;
-    margin-bottom: 6px;
+    font-size: 7px;
+    margin-bottom: 2px;
+    line-height: 1.2;
   }
 
   .file-info {
-    font-size: 9px;
-    padding: 5px;
-    margin: 6px 0;
-    gap: 5px;
+    font-size: 7px;
+    padding: 3px 5px;
+    margin: 2px 0;
+    gap: 4px;
   }
 
   .file-info img {
-    width: 18px;
+    width: 14px;
   }
 
   .input-field {
-    margin: 5px 0;
+    margin: 2px 0;
     min-height: unset;
   }
 
   .input-field label {
-    font-size: 10px;
-    margin-bottom: 4px;
+    font-size: 8px;
+    margin-bottom: 2px;
   }
 
   .input-field input {
-    padding: 6px 8px;
-    font-size: 11px;
+    padding: 4px 6px;
+    font-size: 9px;
+    border-width: 1px;
+    border-radius: 5px;
   }
 
   .btn {
-    padding: 8px;
-    font-size: 11px;
+    padding: 5px;
+    font-size: 9px;
+    border-radius: 5px;
+    margin-top: 2px;
   }
 
-  .security-notice,
-  .footer,
+  .security-notice {
+    font-size: 6px;
+    margin-top: 3px;
+    padding-top: 4px;
+  }
+
+  .footer {
+    font-size: 6px;
+    margin-top: 3px;
+  }
+
   .attempt-counter,
   .loading {
-    font-size: 8px;
-    margin-top: 6px;
+    font-size: 7px;
+    margin-top: 2px;
+  }
+
+  .footer-logos {
+    gap: 5px;
+    margin-top: 3px;
   }
 
   .footer-logos img {
-    height: 14px;
+    height: 10px;
   }
 }
 
