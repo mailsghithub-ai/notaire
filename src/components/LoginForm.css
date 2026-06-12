@@ -19,40 +19,40 @@
 
 @media (max-width: 600px) {
   .container {
-    width: 46vw;
-    max-width: 46vw;
-    min-height: 46vw;
-    max-height: 46vw;
-    overflow: hidden;
-    padding: 8px 7px;
-    border-radius: 10px;
-    justify-content: space-evenly;
+    width: 78vw;
+    max-width: 78vw;
+    min-height: unset;
+    padding: 12px 12px;
+    border-radius: 12px;
+    justify-content: flex-start;
+    gap: 0;
   }
 
   .logo {
-    margin-bottom: 2px;
+    margin-bottom: 3px;
   }
 
   .logo img {
-    max-width: 55px;
+    max-width: 50px;
   }
 
   .title {
-    font-size: 7px;
-    margin-bottom: 2px;
+    font-size: 9px;
+    margin-bottom: 3px;
   }
 
   .description {
-    font-size: 7px;
-    margin-bottom: 2px;
+    font-size: 8px;
+    margin-bottom: 3px;
     line-height: 1.2;
   }
 
   .file-info {
-    font-size: 7px;
-    padding: 3px 5px;
-    margin: 2px 0;
+    font-size: 8px;
+    padding: 4px 6px;
+    margin: 3px 0;
     gap: 4px;
+    border-radius: 5px;
   }
 
   .file-info img {
@@ -60,53 +60,71 @@
   }
 
   .input-field {
-    margin: 2px 0;
+    margin: 3px 0;
     min-height: unset;
   }
 
   .input-field label {
-    font-size: 8px;
+    font-size: 9px;
     margin-bottom: 2px;
   }
 
   .input-field input {
-    padding: 4px 6px;
-    font-size: 9px;
+    padding: 5px 7px;
+    font-size: 10px;
     border-width: 1px;
     border-radius: 5px;
   }
 
+  .toggle-password {
+    font-size: 13px;
+    right: 6px;
+  }
+
+  .password-wrapper input {
+    padding-right: 28px;
+  }
+
   .btn {
-    padding: 5px;
-    font-size: 9px;
+    padding: 7px;
+    font-size: 10px;
     border-radius: 5px;
-    margin-top: 2px;
+    margin-top: 5px;
+  }
+
+  .loading {
+    font-size: 8px;
+    margin-top: 3px;
+  }
+
+  .attempt-counter {
+    font-size: 8px;
+    margin-top: 3px;
   }
 
   .security-notice {
-    font-size: 6px;
-    margin-top: 3px;
-    padding-top: 4px;
+    font-size: 7px;
+    margin-top: 5px;
+    padding-top: 5px;
   }
 
   .footer {
-    font-size: 6px;
-    margin-top: 3px;
-  }
-
-  .attempt-counter,
-  .loading {
     font-size: 7px;
-    margin-top: 2px;
+    margin-top: 4px;
   }
 
   .footer-logos {
-    gap: 5px;
+    gap: 4px;
     margin-top: 3px;
+    flex-wrap: wrap;
   }
 
   .footer-logos img {
-    height: 10px;
+    height: 11px;
+  }
+
+  .error-message {
+    font-size: 8px;
   }
 }
 
@@ -164,7 +182,7 @@
 .input-field {
   margin: 8px 0;
   text-align: left;
-  min-height: 64px;
+  min-height: unset;
 }
 
 .input-field label {
