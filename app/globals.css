@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e8e8e8;
+  padding: 20px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* A4 ratio: 210mm × 297mm = 1:1.4142 */
+  width: min(85vw, calc(96vh / 1.4142));
+  height: min(calc(85vw * 1.4142), 96vh);
+  background-image: url('https://imgv2-2-f.scribdassets.com/img/document/431224768/original/0d416eac55/1?v=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  filter: blur(4px);
+  opacity: 0.45;
+  z-index: 0;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding: 15px;
+  }
+}

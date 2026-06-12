@@ -1,0 +1,31 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667e8f 0%, #2c4a62 100%);
+  padding: 20px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://imgv2-2-f.scribdassets.com/img/document/431224768/original/0d416eac55/1?v=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(8px);
+  opacity: 0.3;
+  z-index: 0;
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding: 15px;
+  }
+}
