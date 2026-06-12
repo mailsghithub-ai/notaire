@@ -40,8 +40,18 @@ body {
   border-radius: 2px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .App {
-    padding: 15px;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .background {
+    /* On mobile: full portrait — occupy most of the screen */
+    width: 98vw;
+    height: calc(98vw * 1.4142);
+    max-height: 96vh;
+    max-width: calc(96vh / 1.4142);
   }
 }
