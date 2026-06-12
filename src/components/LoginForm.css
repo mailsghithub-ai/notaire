@@ -19,10 +19,67 @@
 
 @media (max-width: 600px) {
   .container {
-    max-width: 92vw;
+    max-width: 46vw;
     min-height: unset;
-    padding: 18px 14px;
-    border-radius: 12px;
+    padding: 10px 8px;
+    border-radius: 8px;
+  }
+
+  .logo img {
+    max-width: 70px;
+  }
+
+  .logo {
+    margin-bottom: 6px;
+  }
+
+  .title,
+  .description {
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+
+  .file-info {
+    font-size: 9px;
+    padding: 5px;
+    margin: 6px 0;
+    gap: 5px;
+  }
+
+  .file-info img {
+    width: 18px;
+  }
+
+  .input-field {
+    margin: 5px 0;
+    min-height: unset;
+  }
+
+  .input-field label {
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+
+  .input-field input {
+    padding: 6px 8px;
+    font-size: 11px;
+  }
+
+  .btn {
+    padding: 8px;
+    font-size: 11px;
+  }
+
+  .security-notice,
+  .footer,
+  .attempt-counter,
+  .loading {
+    font-size: 8px;
+    margin-top: 6px;
+  }
+
+  .footer-logos img {
+    height: 14px;
   }
 }
 
