@@ -22,37 +22,38 @@
     width: 78vw;
     max-width: 78vw;
     min-height: unset;
-    padding: 12px 12px;
-    border-radius: 12px;
+    padding: 2px 12px;
+    border-radius: 10px;
     justify-content: flex-start;
     gap: 0;
   }
 
   .logo {
-    margin-bottom: 3px;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   .logo img {
-    max-width: 50px;
+    max-width: 22px;
   }
 
   .title {
-    font-size: 9px;
-    margin-bottom: 3px;
+    font-size: 8px;
+    margin-bottom: 0;
   }
 
   .description {
-    font-size: 8px;
-    margin-bottom: 3px;
-    line-height: 1.2;
+    font-size: 7px;
+    margin-bottom: 0;
+    line-height: 1.1;
   }
 
   .file-info {
-    font-size: 8px;
-    padding: 4px 6px;
-    margin: 3px 0;
-    gap: 4px;
-    border-radius: 5px;
+    font-size: 7px;
+    padding: 2px 4px;
+    margin: 0;
+    gap: 3px;
+    border-radius: 4px;
   }
 
   .file-info img {
@@ -60,17 +61,17 @@
   }
 
   .input-field {
-    margin: 3px 0;
+    margin: 0;
     min-height: unset;
   }
 
   .input-field label {
-    font-size: 9px;
-    margin-bottom: 2px;
+    font-size: 8px;
+    margin-bottom: 0;
   }
 
   .input-field input {
-    padding: 5px 7px;
+    padding: 3px 7px;
     font-size: 10px;
     border-width: 1px;
     border-radius: 5px;
@@ -86,10 +87,10 @@
   }
 
   .btn {
-    padding: 7px;
+    padding: 4px;
     font-size: 10px;
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: 2px;
   }
 
   .loading {
@@ -103,24 +104,17 @@
   }
 
   .security-notice {
-    font-size: 7px;
-    margin-top: 5px;
-    padding-top: 5px;
+    display: none;
   }
 
   .footer {
-    font-size: 7px;
-    margin-top: 4px;
+    font-size: 6px;
+    margin-top: 1px;
+    padding-bottom: 0;
   }
 
   .footer-logos {
-    gap: 4px;
-    margin-top: 3px;
-    flex-wrap: wrap;
-  }
-
-  .footer-logos img {
-    height: 11px;
+    display: none;
   }
 
   .error-message {
